@@ -1,8 +1,15 @@
 import React from "react";
+import useElectron from "./useElectron";
+
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  useElectron(
+    v => console.log(`There is Electron version ${v}`),
+    () => console.log("There isn't Electron")
+  );
+
   return (
     <div className="App">
       <header className="App-header">
