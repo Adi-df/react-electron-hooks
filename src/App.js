@@ -1,12 +1,20 @@
 import React from "react";
 import useElectron from "./useElectron";
+import useRemote from "./useRemote";
 
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   useElectron(
-    v => console.log(`There is Electron version ${v}`),
+    v => {
+      console.log(`There is Electron version ${v}`);
+      let { BrowserWindow } = useRemote();
+
+      let win = new BrowserWindow();
+      win.loadURL("https://github.com");
+      win.show();
+    },
     () => console.log("There isn't Electron")
   );
 
