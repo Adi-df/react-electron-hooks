@@ -40,5 +40,18 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Adi-df/react-electron-hooks.git"
-  }
+  },
+  "exports": {
+    "import": "./lib/esm/index.js",
+    "require": "./lib/cjs/index.js",
+    "default": "./lib/esm/index.js",
+    "node": "./lib/cjs/index.js"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "hooks",
+    "react-electron"
+  ],
+  "license": "MIT"
 }
