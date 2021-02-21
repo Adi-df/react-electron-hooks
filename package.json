@@ -28,5 +28,9 @@
     "index.d.ts",
     "README.md",
     "tsconfig.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adi-df/react-electron-hooks.git"
+  }
 }
