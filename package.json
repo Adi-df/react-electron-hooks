@@ -1,6 +1,6 @@
 {
   "name": "react-electron-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and small hook collection for electron integration",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
