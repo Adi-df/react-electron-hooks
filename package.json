@@ -4,7 +4,7 @@
   "description": "A simple and small hook collection for electron integration",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./index.d.ts",
   "scripts": {
     "build:esm": "tsc --module esnext --outDir lib/esm",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
@@ -24,6 +24,8 @@
   },
   "files": [
     "lib",
+    "src",
+    "index.d.ts",
     "README.md",
     "tsconfig.json"
   ]
