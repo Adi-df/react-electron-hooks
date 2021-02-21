@@ -1,0 +1,9 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "ES2020"
+  },
+  "include": ["src"],
+  "exclude": ["lib"]
+}
