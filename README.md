@@ -24,7 +24,7 @@ export default function ExempleComponent() {
 Return ipcRenderer from ```require("electron")```
 #### Definition:
 ```typescript
-useRemote(): IpcRenderer
+useIpc(): IpcRenderer
 ```
 #### Exemple: 
 ```javascript
